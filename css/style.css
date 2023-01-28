@@ -206,6 +206,11 @@ video {
   .card-image {
     height: 22rem;
   }
+
+  .plan {
+    padding: 2.4rem;
+    margin-bottom: 3.2rem;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
