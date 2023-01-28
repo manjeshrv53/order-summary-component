@@ -38,6 +38,10 @@ body {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2.6rem;
+  background-image: url('./../images/pattern-background-mobile.svg');
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 img,
@@ -187,6 +191,21 @@ video {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  body {
+    background-image: url('./../images/pattern-background-desktop.svg');
+  }
+
+  .card {
+    max-width: 45rem;
+  }
+
+  .card-content {
+    padding: 4.8rem;
+  }
+
+  .card-image {
+    height: 22rem;
+  }
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
